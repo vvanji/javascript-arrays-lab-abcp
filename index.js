@@ -43,7 +43,7 @@ return [name, ...kittens];
 prependKitten("Tigger");
 
 function removeLastKitten(){
-return kittens.pop();
+return kittens.slice( );
 }
 
 removeLastKitten();
