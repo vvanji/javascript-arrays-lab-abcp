@@ -43,13 +43,13 @@ return [name, ...kittens];
 prependKitten("Tigger");
 
 function removeLastKitten(){
-return kiettens.pop();
+return kittens.pop();
 }
 
 removeLastKitten();
 
 function removeFirstKitten(){
-return kiettens.slice(1);
+return kittens.slice(1);
 }
 
 removeFirstKitten();
